@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+.applyFont {
+  font-family: 'Abel', sans-serif !important;
+}
+.fSize {
+  font-size: 30px;
+}
+.fLinkSize {
+  font-size: 30px;
+}
+.pgContentRow{
+  margin-top: 15%;
+}
+
+.offColor{
+  background-color: #001a33;
+  color: white;
+}
+
+/* Recolor of the navbar links */
+.nav.navbar-nav li a:hover{
+  color: #000000;
+}
+.nav.navbar-nav li a{
+  color:#ffffff;
+}
+
+/* Recolor of the downward carot arrow */
+.carotColor{
+  color: white;
+}
+
+/* Navbar Brand recolor */
+.navbar-brand {
+    color: #ffffff !important;
+    font-size: 30px !important;
+}
+
+/* BG color of the nav bar */
+.navcustomBg{
+  background-color: #001a33;
+}
+
+/* About me section css styling */
+.profilepic{
+  margin-top: 3%;
+}
+
+.info{
+  background-color: #f2f2f2;
+  box-shadow: 5px 5px 15px;
+  height: 80%;
+  margin-top: 2%;
+  width: auto;
+}
+
+/* Portfolio section css styling */
+.projectrow1{
+  height: 225px;
+}
+
+.projectrow2{
+  height: 225px;
+}
+
+
+.projImg{
+  position: absolute;
+  opacity: 1;
+  display: block;
+  transition: .2s ease;
+  backface-visibility: hidden;
+}
+.projImg:hover{
+  transform: scale(1.1);
+  z-index: 5;
+}
+
+
+
+.carouselSize{
+  height: 100%;
+  width: 100%;
+}
+
+/* Adds a border to the element */
+.addBorders {
+	border: 1px solid white;
+  color: white;
+}
+
+.rowHeight25 {height: 25px;}
+.rowHeight50 {height: 50px;}
+.rowHeight75 {height: 75px;}
+.rowHeight100 {height: 100px;}
+.rowHeight125 {height: 125px;}
+.rowHeight150 {height: 150px;}
+.rowHeight175 {height: 175px;}
+.rowHeight200 {height: 200px;}
+.rowHeight225 {height: 225px;}
+.rowHeight250 {height: 250px;}
+.rowHeight500 {
+  height: 70%;
+  width: auto;
+}
+
+.colPad5 {padding-bottom:5%;padding-top:5%;}
+.colPad6 {padding-bottom:6%;padding-top:6%;}
+.colPad10 {padding-bottom:5%;padding-top:15%;}
+.colPad25 {padding-bottom:5%;padding-top:25%;}
+.colPad30 {padding-bottom:5%;padding-top:30%;}
+.colPad40 {padding-bottom:5%;padding-top:40%;}
+.colPad50 {padding-bottom:5%;padding-top:50%;}
