@@ -6,6 +6,9 @@
 .fSize {
   font-size: 30px;
 }
+.fSize2 {
+  font-size: 20px;
+}
 .fLinkSize {
   font-size: 30px;
 }
@@ -17,6 +20,8 @@
   background-color: #001a33;
   color: white;
 }
+
+/* NavBar section */
 
 /* Recolor of the navbar links */
 .nav.navbar-nav li a:hover{
@@ -42,6 +47,7 @@
   background-color: #001a33;
 }
 
+
 /* About me section css styling */
 .profilepic{
   margin-top: 3%;
@@ -64,21 +70,51 @@
   height: 225px;
 }
 
-
 .projImg{
-  position: absolute;
-  opacity: 1;
-  display: block;
-  transition: .2s ease;
   backface-visibility: hidden;
+  display: block;
+  opacity: 1;
+  position: absolute;
+  transition: .2s ease;
 }
+
 .projImg:hover{
   transform: scale(1.1);
   z-index: 5;
 }
 
+/* Resume section */
+.pdfLogo{
+  height: 100px;
+  margin-bottom: 75%;
+  margin-top: 50%;
+  width: 100px;
+}
 
+.vertAlign {
+  align-items: center;
+  display:flex;
+  flex-flow: column;
+  justify-content:center;
+}
 
+/* Contact section */
+.footerImg{
+  display: block;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.ghMark{
+  filter: brightness(5);
+}
+
+.footerMargin{
+  margin-top: 15px;
+}
+
+/* The carousel in the modals */
 .carouselSize{
   height: 100%;
   width: 100%;
