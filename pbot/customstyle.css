@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+.applyFont {
+  font-family: 'Abel', sans-serif !important;
+}
+/* Adds a border to the element */
+.addBorders {
+	border: 1px solid black;
+}
+
+.pbot{
+	background-color: #b21018;
+	border-radius: 25px;
+}
+
+.boxTitle{
+	font-size: 20px;
+	margin-left: auto;
+	padding-bottom: 20px;
+	position: relative;
+	text-align: center;
+}
+
+.timer{
+	background-color: green;
+	margin-left: 75%;
+	padding-left: 50px;
+	position: relative;
+}
+
+.rowHeight25 {height: 25px;}
+.rowHeight50 {height: 50px;}
+.rowHeight75 {height: 75px;}
+.rowHeight100 {height: 100px;}
+.rowHeight125 {height: 125px;}
+.rowHeight150 {height: 150px;}
+.rowHeight175 {height: 175px;}
+.rowHeight200 {height: 200px;}
+.rowHeight225 {height: 225px;}
+.rowHeight250 {height: 250px;}
+.rowHeight500 {
+  height: 70%;
+  width: auto;
+}
+
+.colPad5 {padding-bottom:5%;padding-top:5%;}
+.colPad6 {padding-bottom:6%;padding-top:6%;}
+.colPad10 {padding-bottom:5%;padding-top:15%;}
+.colPad25 {padding-bottom:5%;padding-top:25%;}
+.colPad30 {padding-bottom:5%;padding-top:30%;}
+.colPad40 {padding-bottom:5%;padding-top:40%;}
+.colPad50 {padding-bottom:5%;padding-top:50%;}
